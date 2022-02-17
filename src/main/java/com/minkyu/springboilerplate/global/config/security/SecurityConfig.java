@@ -20,6 +20,8 @@ import java.util.Map;
  * Created by MinKyu Kim
  * Created on 2022-02-17.
  **/
+@Configuration
+@EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 
